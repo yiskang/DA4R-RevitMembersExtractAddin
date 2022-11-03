@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="Extract memberes of Revit Assembly and Group Addin" Author="eason.kang@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="http://learnforge.autodesk.io" Email="forge.help@autodesk.com"/>
+	<Components Description="Extract member ids of Revit Assembly and Group to JSON">
+		<RuntimeRequirements SeriesMax="R2023" SeriesMin="R2022" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Extract member ids of Revit Assembly and Group to JSON" ModuleName="./Contents/RevitMembersExtractAddin.addin" Version="1.0.0" AppName="RevitMembersExtractAddin"/>
+	</Components>
+</ApplicationPackage>

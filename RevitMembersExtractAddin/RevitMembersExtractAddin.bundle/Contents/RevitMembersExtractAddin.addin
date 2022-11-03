@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>RevitMembersExtractAddin</Name>
+		<FullClassName>RevitMembersExtractAddin.Command</FullClassName>
+		<Text>RevitMembersExtractAddin</Text>
+		<Description>Extract member ids of Revit Assembly and Group to JSON</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\RevitMembersExtractAddin.dll</Assembly>
+		<AddInId>4D7334FB-8D4A-437D-BDD5-9EF221150CFF</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>
